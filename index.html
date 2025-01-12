@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robux Auto System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .hero {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .features {
+            margin: 20px 0;
+        }
+        .feature {
+            text-align: center;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header class="hero">
+    <h1>Welcome to Robux Auto System</h1>
+    <p>Your reliable solution for instant Robux delivery!</p>
+    <a href="#order" class="btn btn-light">Get Started</a>
+</header>
+
+<div class="container">
+    <section class="features row">
+        <div class="col-md-4 feature">
+            <h3>Fast Delivery</h3>
+            <p>Receive your Robux within seconds after payment confirmation.</p>
+        </div>
+        <div class="col-md-4 feature">
+            <h3>Secure Payment</h3>
+            <p>We use trusted payment gateways to ensure your transactions are safe.</p>
+        </div>
+        <div class="col-md-4 feature">
+            <h3>24/7 Support</h3>
+            <p>Our team is always ready to assist you with any inquiries.</p>
+        </div>
+    </section>
+
+    <section id="order" class="my-5">
+        <h2 class="text-center">Order Your Robux</h2>
+        <form class="mt-4">
+            <div class="mb-3">
+                <label for="username" class="form-label">Roblox Username</label>
+                <input type="text" id="username" class="form-control" placeholder="Enter your Roblox username">
+            </div>
+            <div class="mb-3">
+                <label for="amount" class="form-label">Amount of Robux</label>
+                <input type="number" id="amount" class="form-control" placeholder="Enter the amount of Robux">
+            </div>
+            <div class="mb-3">
+                <label for="payment" class="form-label">Payment Method</label>
+                <select id="payment" class="form-select">
+                    <option>Bank Transfer</option>
+                    <option>PayPal</option>
+                    <option>PromptPay</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Submit Order</button>
+        </form>
+    </section>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2025 Robux Auto System. All rights reserved.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
